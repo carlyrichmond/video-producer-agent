@@ -1430,3 +1430,41 @@ Stripped all "E.g." / "In practice:" dev advocacy example lines from the Structu
 - Preserved the runnable demo behavior and claim boundaries while avoiding a second explanation of the typed-decision pattern established by the model-router section.
 - Added a draft wrap-up that returns to the semantic `if` statement framing, states where Jev does and does not fit, points to the demo repository, and ends with a specific viewer question.
 - Updated the file metadata from outline to draft script.
+
+## 2026-10-27 — Reviewed the "What is an embedding?" Short outline
+
+- Reviewed `projects/202610-vector-embedding-short/outline.md` against the short-form guidance, the no-time-estimates rule, and the Elastic `dense_vector` docs. No files in the project were edited.
+- Main findings: the Solo example does not use the chart's humanity/realism axes, per-section timestamps break the outline convention, the scope runs past a single-concept Short, the "distance" claim needs qualifying for cosine similarity, and several typos (including the "Buy for now" CTA).
+- Verified: `dense_vector` supports up to 4096 dims. Not verified: the 384–1024 "typical" range, the infographic character placements, and the social copy doc.
+
+## 2026-10-27 — Revised the embedding Short outline and added a brief
+
+- Added `projects/202610-vector-embedding-short/brief.md` with the viewer, single-concept job, scope boundaries, open decisions, and risks.
+- Revised `outline.md`: removed per-section timestamps, replaced the Solo example with Luke (who is on the chart), reworded the distance claim to "how close they are", qualified "more dims = more nuance", and trimmed the storage and query step from the payoff.
+- Moved the text-to-vector animation, zoom-out, and scrolling vector to editor-time notes, leaving the vertical infographic as the only designer deliverable.
+- Fixed the typos, including "Buy for now" to "Bye for now".
+
+## 2026-10-27 — Applied second-pass fixes to the embedding Short
+
+- Clarified the search example (matches Luke's description, not his name), scoped the dimension definition to "in our chart", changed the on-screen hedge, and moved the axis-label note out of the narration.
+- Moved pre-recording checks and the full source list into `brief.md`, leaving pointers in the outline.
+- Added the user's takeaway line to the brief's in-scope list, with a note that it is a pointer rather than a model-selection guide.
+
+## 2026-10-27 — Reworded the embedding Short takeaway
+
+- Changed the closing takeaway in `projects/202610-vector-embedding-short/outline.md` to "more dimensions isn't automatically better. Test a model on your own data." It names the subject, drops the narrow "domain" claim, and reads as speech.
+
+## 2026-10-27 — Named Jina Embeddings v5 in the embedding Short hook
+
+- The hook in `projects/202610-vector-embedding-short/outline.md` now says "Jina Embeddings v5, for example, gives you 1024 of them."
+- Basis: Elastic's Search Labs coverage of jina-embeddings-v5-text-small (1024 dimensions by default), consistent with the 1024 figure already in the wiki. The v5-omni family (May 2026) is newer, but its default dimension was not confirmed.
+
+## 2026-10-27 — Drafted the embedding Short script
+
+- Added `projects/202610-vector-embedding-short/script.md` (draft v1) from the revised outline, keeping the outline's section order and scope.
+- Spoken pronunciation guide added for 1024. Visual directions kept inline in square brackets, per the visual direction conventions.
+
+## 2026-10-27 — Reviewed the embedding Short script against the outline and brief
+
+- Reviewed `projects/202610-vector-embedding-short/script.md` (draft v1, as edited by the user). No files edited.
+- Main findings: the similarity-measures line is out of scope per the brief, "v5 Text" is ambiguous across model variants, "capture subtler differences" lost its hedge, the new Luke-vector visual has no matching characters-on-chart setup, and the CTA promises content that has no named destination.
