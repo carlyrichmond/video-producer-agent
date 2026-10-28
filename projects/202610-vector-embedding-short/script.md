@@ -10,7 +10,7 @@ source: outline.md
 Your embedding model turns text into a list of numbers. Jina Embeddings v5 Text, for example, gives you one thousand and twenty four (1024) of them.
 [on-screen: a long scrolling vector `[0.021, -0.443, 0.187, ...]` with "1024 dimensions" stamped over it]
 
-So what do each of those numbers actually mean? Let's find out!
+So what do each of those numbers actually mean? I'm Carly Richmond from Elastic. Let's find out what they mean together!
 
 An embedding is a list of numbers that represents the meaning of something. For example, a chunk of text, an image, or a video.
 
