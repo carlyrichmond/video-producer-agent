@@ -59,5 +59,5 @@ We can plot two dimensions on a chart. The model works across a thousand.
 
 More dimensions isn't automatically better. Make sure you test a model out on your own data.
 
-"That's what's inside an embedding. Follow the Elastic YouTube channel to see how. Bye for now!
+"That's what's inside an embedding. Follow the Elastic YouTube channel to see more about vector embeddings. Until next time!
 [end on the Elastic logo; end card links to the next vector search video]
