@@ -43,6 +43,7 @@ Characters that are similar sit close together. Characters that are not similar 
 [highlight Luke and Vader together]
 
 How close together they are is what vector search looks at, using similarity measures such as cosine similarity or dot product.
+[highlight each similarity between Solo and Han]
 
 Real models don't stop at two dimensions. They use hundreds, even thousands, of dimensions.
 [zoom out from the 2D chart; more axes fan out until it becomes an abstract cloud of points]
@@ -52,12 +53,12 @@ People don't pick what those dimensions represent. The model learns them during 
 So unlike our chart, one real dimension rarely means one clean idea like "human versus machine". Meaning is spread across many dimensions at once.
 
 More dimensions capture subtler differences. But they also cost more storage, and more compute for each comparison.
-[on-screen: "more dims → more nuance, more storage"]
+[on-screen: "more dimensions → more nuance, more storage"]
 
 We can plot two dimensions on a chart. The model works across a thousand.
 [return to the 2D chart, then cut to the 1024-number vector from the hook]
 
 More dimensions isn't automatically better. Make sure you test a model out on your own data.
 
-"That's what's inside an embedding. Follow the Elastic YouTube channel to see more about vector embeddings. Until next time!
+"That's what's inside an embedding. Follow the Elastic YouTube channel to see more about vector embeddings. I'll see you next time!
 [end on the Elastic logo; end card links to the next vector search video]
